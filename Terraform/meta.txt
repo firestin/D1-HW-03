@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: firestin
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCK0zPlJsuIwz1jeoDsOA9YI0UXS4xS7LHp0EnlDihRZP7Lc2WjxJ9WHoKH2RU+BVwc1Xs+m+UuSkFOdZBFUHb9LGqw9B2MMds5/9dnyo9qV5Z430Cx8iQD0PQNNdnIc5ciKkxC0dxb7fL1WWYEIaU95tkHkXAv2VXGjfic4YcvlnYB0L+ois5y8toPqAp2Owru0+Skg6rp8KWswnZgMTWZwIYvRF4woXHND/HX7BGJzaJxNTotod7NRNaT/KPWHYQmpn50rZZ0P05IDvby5WMzU2WFU6LpmwM8aebSyx5foTwL++JbjmM5Af0xLmG8/acjBly75x7Uo9mi0tk35i5MbbhtiKfUMsBFSnd2D82SWjK+cEQwwUxyfiu0poNY4APUyDXNMBSehdmHKt5dE3FV/TxzE38ySCjZBcHH8dJkuujsan7vI/j9FiyoEzR1EJ8CGrFSsAe4oUE4DlR6W7ZaYHi4/sEREdOKB190BqI80b3oNui7V+tSKQ3tqbCuTX0=
